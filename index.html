@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+    <title>opdrcaht-les18</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            font-family: "Merriweather", serif;
+            font-size:13px;
+            font-style: normal;
+        }
+
+        
+
+        [class*="col-"] {
+            width: 100%;
+            
+        }
+       
+        header{
+            width: 100%;
+            height:auto;
+            text-align: center;
+        }
+        
+        .koptext{
+            background-image:url('helmond.jpeg') ;
+            background-size:cover;
+            background-position: center;
+            padding: 200px;
+            
+        }
+
+        h1{
+            color:white;
+            text-shadow:white 5px 5px 10px;
+            font-size:22px; 
+            
+        }
+
+        h3{
+            letter-spacing:1px;
+        }
+
+        p{
+            padding-top:5px;
+            padding-right:10px;
+            line-height: 1.8;
+            letter-spacing: 1px;
+        }
+
+        .container{
+            display:flex
+        }
+        
+
+        #links{
+            
+            height:auto;
+            color:black;
+            text-align:start;
+            
+        }
+
+        #links h3{
+            text-align: center;
+            padding:0;
+            margin:0;
+
+            
+        }
+
+        #links ul{
+            
+            
+            list-style-type:none;
+            padding:2px;
+            
+            
+        }
+        #links  li{
+            
+            padding:12px;
+            color:black;
+            border-bottom: 2px solid black;
+            
+            
+            
+
+        }
+
+        #links  li:hover{
+            border-bottom: 2px solid black;
+            border-top:2px solid black;
+            background-color: rgb(44, 44, 51);
+            color:white;
+            
+        }
+
+
+        #rechts{
+            
+            height:600px;
+            background-color: rgb(44, 44, 51);
+            
+            
+            
+        }
+
+        .article{
+
+            height:50%;
+            color:white;
+            padding:10px;
+            border-top:1px solid white;
+            
+        }
+
+        .article img{
+            
+            float:right;
+            width: 150px;
+            height:150px;
+            border:2px solid white;
+            padding:10px;
+            margin:10px;
+           
+        }
+
+        
+
+        
+
+        
+        footer{
+            width: 100%;
+            height:50px;
+            text-align: center;
+            background-color: rgb(44, 44, 51);
+            margin-top:10px;
+            color:white;
+        }
+
+
+        @media only screen and (min-width:768px){
+            [class*="col-"] {
+                float: left;
+                padding:10px;
+            }
+
+            .col-2{width:16.66%;}
+            .col-9{width:75%;}
+
+            h1{font-size:36px}
+
+        }
+
+
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="koptext">Helmond</h1>
+
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <section id="links">
+                        <h3>Vijf feitjes over Helmond</h3>
+                        <ul>
+                            <li>Helmond ligt in de provincie Noord-Brabant</li>
+                            <li>De stad is bekend om haar kasteel, Kasteel Helmond, uit de 14e eeuw.</li>
+                            <li>Helmond heeft een sterke geschiedenis in de textielindustrie.</li>
+                            <li>De stad heeft een modern kanaal, het "Zuid-Willemsvaart", voor transport.</li>
+                            <li>Helmond Sport is de professionele voetbalclub van de stad.</li>
+                        </ul>
+
+                    </section>
+
+                </div>
+                <div class="col-9">
+                    <section id="rechts">
+                        <div class="article">
+                        <article>
+                            <h3>Computer Museum</h3>
+                            <p><img src="computer-museum.jpg" alt="helmond">Het HomeComputerMuseum is een interactieve tijdreis door de geschiedenis van de (thuis)computer en aanverwante apparaten middels kamers in stijl van de desbetreffende jaren. Met een gespecialiseerde werkplaats voor reparatie en een arcadecafé is dit museum uniek in de Benelux.</p>
+                        </article>
+
+                        </div>
+                        <div class="article">
+                        <article>
+                            <h3>Kasteel</h3>
+                            <p><img src="kasteel.jpeg" alt="helmond">Kasteel Helmond staat al bijna 700 jaar in het centrum van Helmond. Dit stadskasteel vertelt zijn eigen, bijzondere verhaal over de adelijke families Van Berlaer, Van Cortenbach, Van Arberg en Wesselman van Helmond. </p>
+                        </article>   
+                        </div>
+                        
+
+                    </section>
+
+                </div>
+            </div>
+
+            
+        </div>
+
+        <footer>
+            <p> © 2024 Helmond. Alle rechten voorbehouden.</p>
+
+        </footer>        
+
+        
+    </body>
+</html>
